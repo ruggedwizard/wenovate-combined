@@ -1,7 +1,19 @@
+import { Box, Stack, Container} from "@chakra-ui/react"
+import NavLinks from "./NavLinks"
+
+
 const Navbar = ()=>{
     return(
-        <h1>Navbar Compoents</h1>
+    <Box h={50} mb={25} >
+        <Container>
+            <Stack>
+                <NavLinks />
+            </Stack>
+        </Container>
+    </Box>
+
     )
 }
+
 
 export default Navbar
