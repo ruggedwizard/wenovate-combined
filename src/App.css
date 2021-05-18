@@ -1,9 +1,11 @@
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    margin: 0;
+    padding:0;
 }
 
 .nav-bar{
-    height: 50px;
+    height: 70px;
     background-color: cadetblue;
 }
 
@@ -16,9 +18,19 @@
 }
 
 .btn-secondary{
-    background-color: red;
+    background-color: green;
     color:white;
     padding: 1em;
     margin: 0.5em;
     border-radius: 0.3rem;
+}
+.photo-card{
+    border: 1px solid green;
+    width: 50px;
+    height: 50px;    
+    border-radius: 50%;
+}
+.menu-list{
+    list-style-type:inline;
+    display: inline;
 }

@@ -1,8 +1,8 @@
 const Navbar = ()=>{
     return(
     <div className='nav-bar'>
-        <span className='photo-card'></span>  
-        <ul>
+    <div className='photo-card'></div>  
+        <ul className='menu-list'>
             <li>Features</li>
             <li>Blog</li>
             <li>Connect</li>
