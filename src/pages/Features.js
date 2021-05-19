@@ -4,7 +4,7 @@ import {Box, Text} from '@chakra-ui/react'
 const Features = () => {
     return (
         <Box>
-            <Text>Hello from Features</Text>
+            <Text>body</Text>
         </Box>
     )
 }
