@@ -2,10 +2,23 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Blog from './components/Blog'
+import { ThemeProvider, CSSReset } from '@chakra-ui/react'
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Body from './components/Body';
+
+
 function App() {
   return (
     <>
-    <Blog/>
+    <ThemeProvider>
+     <CSSReset/>
+     <Navbar/>
+      <Body/>
+      <Blog/>
+    <Footer />
+   </ThemeProvider>
+  
     </>
   );
 }
