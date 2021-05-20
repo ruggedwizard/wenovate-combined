@@ -16,10 +16,6 @@ import {
     Lorem
   } from "@chakra-ui/react"
  
-// import Features from '../pages/Features'
-// import Blog from '../pages/Blog'
-// import Connect from '../pages/Connect'
-
 
 const NavLinks = () =>{
     // const { isOpen, onOpen, onClose } = useDisclosure()
@@ -39,7 +35,7 @@ const NavLinks = () =>{
                     <Spacer />
                     <Text padding='10px 15px' bg="#68F195" color='#070941'><Button onClick={onOpen}>Sign in</Button></Text>
                     <Spacer />
-                    <Text padding='10px 15px' bg="#070941" color="#fff" ml={30}>Register</Text>
+                    <Text padding='10px 15px' bg="#070941" color="#fff" ml={30}><Button onClick={onOpen}>Register</Button></Text>
                     <Spacer />
                 </Flex>
 
