@@ -1,5 +1,6 @@
 *{
-color: blue;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: #070941
 }
 .green-text{
     color: green;
@@ -22,11 +23,12 @@ color: blue;
 .text-sider{
     width: 40%;
     text-align: center;
+    padding: 3em;
 }
 .side-bar{
     background-color: green;
     width: 10px;
-    height: 200px;
+    height: 300px;
 }
 .sales-story{
     border: 1px solid grey;
@@ -37,8 +39,13 @@ color: blue;
 .sales-image{
     height: 300px;
     width: 80%;
-    margin-left: 2em;
+    margin-left: 5em;
 }
 .two-sided-text{
     display: flex;
+}
+.carousel-image{
+    height: 500px;
+    display: block;
+
 }
