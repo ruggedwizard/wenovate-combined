@@ -11,7 +11,6 @@ const Navbar = ()=>{
             </Stack>
         </Container>
     </Box>
-
     )
 }
 

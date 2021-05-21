@@ -1,0 +1,14 @@
+*{
+color: blue;
+}
+.green-text{
+    color: green;
+}
+.storyboard-holder{
+    background-color: white;
+}
+.connect-text{
+    font-weight: bold;
+    width:500px;
+    margin-left: 30%;
+}
