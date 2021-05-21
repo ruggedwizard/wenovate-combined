@@ -1,13 +1,11 @@
 import React from 'react'
-import { Flex, Spacer, Text, useDisclosure } from "@chakra-ui/react"
-import {Button} from 'react-bootstrap' 
+import { Flex, Spacer, Text } from "@chakra-ui/react" 
 import Loginmodal from './Loginmodal'
 import Registermodal  from './Registermodal'
 
 const NavLinks = () =>{
    
-    const { isOpen, onOpen, onClose } = useDisclosure()
-    const finalRef = React.useRef();
+   
     return(
         <>
             <Flex style={{fontSize:"20px", fontWeight:"600", marginTop:"15px"}}>

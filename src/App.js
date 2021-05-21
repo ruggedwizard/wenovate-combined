@@ -15,8 +15,7 @@ function App() {
     <>
     <NavLinks/>
     <Bodynew/>  
-    <Loginmodal/>
-    <Registermodal/>
+    <Footer/>
     </>
   );
 }

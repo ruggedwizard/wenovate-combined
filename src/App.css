@@ -17,7 +17,7 @@ color: blue;
 } */
 .dummy-text{
     display: flex;
-    border: 1px solid green;
+   
 }
 .text-sider{
     width: 40%;
@@ -30,11 +30,15 @@ color: blue;
 }
 .sales-story{
     border: 1px solid grey;
-    padding: 2em;
+    padding: 2em; 
     margin-top: 2em;
     margin-bottom: 2em;
 }
 .sales-image{
-    height: 200px;
-    width: 50%;
+    height: 300px;
+    width: 80%;
+    margin-left: 2em;
+}
+.two-sided-text{
+    display: flex;
 }

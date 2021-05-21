@@ -1,20 +1,23 @@
 import React from 'react'
 import { Container, Image } from 'react-bootstrap'
 import salesImg from '../assets/sales.jpg'
+import farmers from '../assets/farmerstalk.jpg'
 const Bodynew = ()=>{
     return (
         <div>
             <Container>
+                <div className='jumbotron two-sided-text' >
+                <div>
                 <strong>connect, make sales and sell</strong>
                 <h1>
                     in the <span className='green-text'>best </span> online <br/>
                     Community for <span className='green-text'>farmers</span>
                 </h1>
-                <div>
                     <h2>access quality information</h2>
-                    <p>about farming best practice</p>
+                    <p>about farming best practice to boost your farm production</p>
                 </div>
-
+                <Image src={farmers}/>
+                </div>
                 <div className='dummy-text'>
                     <div className='side-bar'></div>
                     <div className='text-sider'>
