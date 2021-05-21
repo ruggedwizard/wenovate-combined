@@ -4,7 +4,7 @@ import NavLinks from "./NavLinks"
 
 const Navbar = ()=>{
     return(
-    <Box h={50} mb={25} >
+    <Box h={50} mb={30} >
         <Container>
             <Stack>
                 <NavLinks />
