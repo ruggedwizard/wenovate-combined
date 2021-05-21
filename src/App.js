@@ -6,13 +6,15 @@ import Footer from './components/Footer';
 import Body from './components/Body';
 import Bodynew from './components/Bodynew'
 import Loginmodal from './components/Loginmodal';
+import Registermodal from './components/Registermodal';
 
 
 function App() {
   return (
     <>
     <Bodynew/>  
-   <Loginmodal/>
+    <Loginmodal/>
+    <Registermodal/>
     </>
   );
 }
