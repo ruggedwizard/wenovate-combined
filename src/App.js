@@ -1,15 +1,15 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Navbar from './components/Navbar';
+import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Bodynew from './components/Bodynew'
-import NavLinks from './components/NavLinks';
+// import NavLinks from './components/NavLinks';
 
 
 function App() {
   return (
     <>
-    <NavLinks/>
+    <Navigation/>
     <Bodynew/>  
     <Footer/>
     </>

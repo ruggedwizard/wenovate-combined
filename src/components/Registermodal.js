@@ -11,7 +11,7 @@ const Registermodal = () =>{
     }
     return(
         <Container>
-        <Button className='btn-lg' onClick={handleShow}>Register</Button>
+        <Button className='btn-md' onClick={handleShow}>Register</Button>
         <Modal show={show} onHide={handleClose} >
             <Modal.Header closeButton>
                 <Modal.Title>

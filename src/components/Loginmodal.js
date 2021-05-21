@@ -11,7 +11,7 @@ const Loginmodal = () => {
 
     return(
         <Container>
-        <button className='btn btn-lg btn-success green-btn' onClick={handleShow}>Login</button>
+        <button className='btn btn-md btn-success green-btn' onClick={handleShow}>Login</button>
         <Modal show={show} onHide={handleClose} >
             <Modal.Header closeButton>
                 <Modal.Title>
