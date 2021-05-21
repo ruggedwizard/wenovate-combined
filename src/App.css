@@ -12,3 +12,29 @@ color: blue;
     width:500px;
     margin-left: 30%;
 }
+/* .white-text{
+    color: white;
+} */
+.dummy-text{
+    display: flex;
+    border: 1px solid green;
+}
+.text-sider{
+    width: 40%;
+    text-align: center;
+}
+.side-bar{
+    background-color: green;
+    width: 10px;
+    height: 200px;
+}
+.sales-story{
+    border: 1px solid grey;
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.sales-image{
+    height: 200px;
+    width: 50%;
+}
