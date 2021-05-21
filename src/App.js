@@ -6,7 +6,7 @@ import Body from './components/Body';
 
 function App() {
   return (
-   <ThemeProvider>
+   <ThemeProvider overflow="none">
      <CSSReset/>
      <Navbar/>
       <Body/>
