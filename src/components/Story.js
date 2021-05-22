@@ -3,7 +3,7 @@ import { Card, Button } from 'react-bootstrap'
 const Story = () => {
     return (
         <div style={{marginTop:'20px', marginBottom:'20px'}}>
-        <Card style={{width:'20rem', marginLeft:10}}>
+        <Card style={{ marginLeft:10}}>
         <Card.Body>
         <Card.Title>
         category
