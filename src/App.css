@@ -18,6 +18,7 @@
 } */
 .dummy-text{
     display: flex;
+    margin-top: 2em;
    
 }
 .text-sider{
@@ -47,4 +48,10 @@
 .carousel-image{
     height: 500px;
     display: block;
+}
+.story-list{
+    margin-top: 2em;
+}
+.rounded-img{
+    border-radius: 100%;
 }

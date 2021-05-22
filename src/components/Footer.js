@@ -5,7 +5,7 @@ import {Container} from 'react-bootstrap'
 const Footer = () =>{
     return(
         <>
-            <Container maxW="container.lg" style={{fontSize:"20px"}} mt={50}  padding="10px">
+            <Container maxw="container.lg" style={{fontSize:"20px"}} mt={50}  padding="10px">
                 <Flex >
                 <Spacer/>
                     <h1 style={{padding:"20px"}}>A product of team wenovate</h1>
