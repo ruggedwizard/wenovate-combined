@@ -1,5 +1,5 @@
 import React from 'react'
-import {Footer} from 'react-bootstrap'
+
 
 const Footernew = () => {
     return (
@@ -27,11 +27,6 @@ const Footernew = () => {
                 </div>
             </div>
         </div>
-        {/* <div className="container">
-            <div className="row">
-                <div className="col-md">buttom side</div>
-            </div>
-        </div> */}
     </div>
     
     )
