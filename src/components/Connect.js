@@ -1,14 +1,17 @@
 import { Button, Container } from "react-bootstrap"
+import Connectcard from "./Connectcard"
+import Emptyconncet from "./Emptyconncet"
+import Story from "./Story"
+
 
 const Connect = ()=>{
     return (
         <Container>
-            <div style={{textAlign:'center'}} className='connect-text'>
-                <p>Connections keep track of people or businesses you have interacted with in the past or currently interacting with presently</p>
-                <storng>You dont have any connections yet</storng>
-                <br/>
-                <Button variant='success'>How do i Connect?</Button>
+            <div className='connect-text col-sm-6 col-lg-8'>
+                <h1>Introducing <span className='green-text'>conncet,</span> an easy way to reach <span className='green-text'>people</span> accross farming communities.</h1>
             </div>
+            <Button variant='primary'>Learn more</Button> 
+            <Story/>
         </Container>
     )
 }

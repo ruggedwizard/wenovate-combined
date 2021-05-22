@@ -1,12 +1,10 @@
 import React from 'react'
-import profileimage from '../assets/profile.png'
 import { Card, Button } from 'react-bootstrap'
 const Story = () => {
     return (
-        <div>
+        <div style={{marginTop:'20px', marginBottom:'20px'}}>
         <Card style={{width:'20rem', marginLeft:10}}>
         <Card.Body>
-        <Card.Img variant='top' src={profileimage} className='rounded-img'/>
         <Card.Title>
         category
         </Card.Title>

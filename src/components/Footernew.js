@@ -3,15 +3,15 @@ import {Footer} from 'react-bootstrap'
 
 const Footernew = () => {
     return (
-    <div style={{height:300,backgroundColor:'green', color:'white', padding:'3em'}}>
+    <div style={{height:300,backgroundColor:'#070941', color:'white'}}>
         <div className="container">
-            <div className="row">
+            <div className="row" style={{padding:'3em'}}>
                 <div className="col-sm-6">
                     <h4 style={{ color:'white'}}>A product of team wenovate</h4>
                 </div>
                 <div className="col-sm-6">
                     <ul style={{ color:'white', listStyleType:'none'}}>
-                        <li style={{ color:'white'}}>communities</li>
+                        <li style={{ color:'white'}}>Communities</li>
                         <li style={{ color:'white'}}>About Us</li>
                         <li style={{ color:'white'}}>FAQs</li>
                         <li style={{ color:'white'}}>Mission</li>
