@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Image, Carousel } from 'react-bootstrap'
+import { Container, Carousel } from 'react-bootstrap'
 import Storylist from './Storylist'
 import salesImg from '../assets/sales.jpg'
 import farmers from '../assets/farmerstalk.jpg'
@@ -14,7 +14,7 @@ const Bodynew = ()=>{
                         <img className='d-block w-100 carousel-image' src={farmers} alt={farmers} style={{opacity:0.5}} />
                         <Carousel.Caption>
                         <div className='two-sided-text' >
-                            <div>
+                            <div> 
                              <strong>connect, make sales and sell</strong>
                             <h1>
                                 in the <span className='green-text'>best </span> online <br/>
@@ -63,29 +63,7 @@ const Bodynew = ()=>{
                 <div className="jumbotron story-list" >
                     <Storylist/>
                 </div>
-                {/* <div className='jumbotron two-sided-text' > */}
-                {/* <div>
-                <strong>connect, make sales and sell</strong>
-                <h1>
-                    in the <span className='green-text'>best </span> online <br/>
-                    Community for <span className='green-text'>farmers</span>
-                </h1>
-                    <h2>access quality information</h2>
-                    <p>about farming best practice to boost your farm production</p>
-                </div>
-                <Image src={farmers}/>*/}
-                {/* </div>  */}
-
-                {/* <div className='dummy-text container'>
-                    <div className='side-bar'></div>
-                    <div className='text-sider'>
-                        <h1 className='white-text'>A great platform to make sales</h1>
-                        <strong className='white-text'>and make valuable connection with other farmers and investors</strong>
-                    </div>
-                    <div>
-                        <Image src={salesImg} className='sales-image' />
-                    </div>
-                </div> */}
+                
                 <div className='sales-story container'>
                     <h2 style={{textAlign:'center'}}>How We Operate</h2>
                     <strong>Step 1</strong>

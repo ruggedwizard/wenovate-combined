@@ -1,6 +1,4 @@
 import { Button, Container } from "react-bootstrap"
-import Connectcard from "./Connectcard"
-import Emptyconncet from "./Emptyconncet"
 import Story from "./Story"
 
 
