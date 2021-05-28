@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footernew = () => {
     return (
-    <div style={{height:300,backgroundColor:'#070941', color:'white'}}>
+    <div style={{height:300,backgroundColor:'#070941', color:'white', marginTop:"50px"}}>
         <div className="container">
             <div className="row" style={{padding:'3em'}}>
                 <div className="col-sm-6">

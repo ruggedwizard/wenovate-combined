@@ -59,11 +59,7 @@ const Bodynew = ()=>{
                     </Carousel.Item>
                     
                 </Carousel>
-                
-                <div className="jumbotron story-list" >
-                    <Storylist/>
-                </div>
-                
+
                 <div className='sales-story container'>
                     <h2 style={{textAlign:'center'}}>How We Operate</h2>
                     <strong>Step 1</strong>
@@ -75,6 +71,11 @@ const Bodynew = ()=>{
                     <strong>Step 4</strong>
                     <p></p>
                 </div>
+                
+                <div className="jumbotron story-list" >
+                    <Storylist/>
+                </div>
+                
             </Container>
         </div>
     )
