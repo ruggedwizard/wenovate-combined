@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react'
-import Img from '../image.png'
+import farmers from '../assets/farmerstalk.jpg'
+import farmertwo from '../assets/farmer3.jpg'
 import {Box, Flex, Image, Text} from "@chakra-ui/react"
 
 
@@ -8,7 +9,7 @@ const Body = () => {
         <Fragment>
             <Box mt={70} mb={50} ml='20%'>
                 <Text fontSize="15px" color='#070941' fontWeight="bold" >Connect, make sales and learn</Text>
-                <Text numberOfLines={2} fontSize="35px" fontWeight="bold"  color='#070941'>in the <span style={{color:"#68F195"}}>best</span> online <br/> Community for <span style={{color:"#68F195"}}>farmers</span></Text>
+                <Text numberOfLines={2} fontSize="35px" fontWeight="bold"  color='#070941'>In the <span style={{color:"#68F195"}}>best</span> online <br/> Community for <span style={{color:"#68F195"}}>farmers</span></Text>
             </Box>    
                 <Box>
                     <Flex >
@@ -22,7 +23,7 @@ const Body = () => {
                             borderRadius="full"
                             boxSize="150px"
                             border="10px"
-                            src={Img}
+                            src={farmers}
                             height="250px"
                             width="400px"
                             alt="img"
@@ -34,7 +35,7 @@ const Body = () => {
                             borderRadius="full"
                             boxSize="150px"
                             border="10px"
-                            src={Img}
+                            src={farmertwo}
                             height="250px"
                             width="400px"
                             alt="img"
