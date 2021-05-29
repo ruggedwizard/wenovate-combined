@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const ConnectNav = () => {
     return (
-        <Container >
+        <Container className=" mb-5" >
             <ListGroup className="d-flex m-auto" horizontal style={{margin:"auto",width:"100%", border:"none"}}>
                 <ListGroup.Item><Link to="/connections">My Connections</Link></ListGroup.Item>
                 <ListGroup.Item><Link to="/people">People</Link></ListGroup.Item>
