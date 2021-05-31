@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 
 const SupplyChain = () => {
     return (
-        <div>
+        <Container>
             Supply Chains
-        </div>
+        </Container>
     )
 }
 
