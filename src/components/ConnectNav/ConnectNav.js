@@ -1,16 +1,31 @@
 import React from 'react'
-import { Container, ListGroup } from 'react-bootstrap'
+import { Container, Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 const ConnectNav = () => {
     return (
         <Container className=" mb-5" >
-            <ListGroup className="d-flex m-auto" horizontal style={{margin:"auto",width:"100%", border:"none"}}>
-                <ListGroup.Item><Link to="/connections">My Connections</Link></ListGroup.Item>
-                <ListGroup.Item><Link to="/people">People</Link></ListGroup.Item>
-                <ListGroup.Item><Link to="/market">Market Place</Link></ListGroup.Item>
-                <ListGroup.Item><Link to="/supply">Supply Chains</Link></ListGroup.Item>
-            </ListGroup>
+
+            <Navbar expand='md' >
+                <Navbar.Toggle aria-controls='navbar-content'/>
+                <Navbar.Collapse id='navbar-content' >
+                    <Nav className='m-auto' style={{fontSize:"20px", }}>
+                        <Nav.Link active>
+                            <Link to="/connect/connections" style={{ marginRight:'50px' }}>My Connections</Link>
+                        </Nav.Link>
+                        <Nav.Link>
+                        <Link to="/connect/people" style={{ marginRight:'50px' }}>People </Link>
+                        </Nav.Link>
+                        <Nav.Link>
+                        <Link to="/connect/market" style={{ marginRight:'50px' }}>Market Place</Link>
+                        </Nav.Link>
+                        <Nav.Link>
+                        <Link to="/connect/supply" >Supply Chains</Link>
+                        </Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
+
         </Container>
     )
 }

@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
-import { Flex, Text, Button, Spacer, Grid } from '@chakra-ui/react'
+import { Flex, Text, Button, Spacer } from '@chakra-ui/react'
 
 
 const Connections = () => {
-    const [member, setMember] = useState(true)
+    const [member, setMember] = useState(false)
     return (
         <div className='col-md-2'>
             {member ? (
-                <Grid templateColumns="repeat(3, 1fr)" gap={50}>
+                <div className="connect_cards">
             
        
-                <Flex flexDirection="column" borderLeft="1px solid #ddd" borderTop="1px solid #ddd" boxShadow="5px 5px 2px #ddd" h={220} w={250} p={20}>
+                <Flex className="connect_card" flexDirection="column" borderLeft="1px solid #ddd" borderTop="1px solid #ddd" boxShadow="5px 5px 2px #ddd" h={220} w={250} p={20}>
                     <Flex fontSize={20}>
                         <Text fontWeight="bold" color="#070941">Sale</Text>
                         <Spacer />
@@ -21,7 +21,7 @@ const Connections = () => {
                         <Spacer />
                     <Button w={130} p={6} color="#fff" bg="#070941">Start</Button>
                 </Flex>
-                <Flex flexDirection="column" borderLeft="1px solid #ddd" borderTop="1px solid #ddd" boxShadow="5px 5px 2px #ddd" h={220} w={250} p={20}>
+                <Flex className="connect_card" flexDirection="column" borderLeft="1px solid #ddd" borderTop="1px solid #ddd" boxShadow="5px 5px 2px #ddd" h={220} w={250} p={20}>
                     <Flex fontSize={20}>
                         <Text fontWeight="bold" color="#070941">Discussions</Text>
                         <Spacer />
@@ -32,7 +32,7 @@ const Connections = () => {
                         <Spacer />
                     <Button w={130} p={6} color="#fff" bg="#070941">Learn</Button>
                 </Flex>
-                <Flex flexDirection="column" borderLeft="1px solid #ddd" borderTop="1px solid #ddd" boxShadow="5px 5px 2px #ddd" h={220} w={250} p={20}>
+                <Flex className="connect_card" flexDirection="column" borderLeft="1px solid #ddd" borderTop="1px solid #ddd" boxShadow="5px 5px 2px #ddd" h={220} w={250} p={20}>
                     <Flex fontSize={20}>
                         <Text fontWeight="bold" color="#070941">Sale</Text>
                         <Spacer />
@@ -43,7 +43,7 @@ const Connections = () => {
                         <Spacer />
                     <Button w={130} p={6} color="#fff" bg="#070941">Start</Button>
                 </Flex>
-                <Flex flexDirection="column" borderLeft="1px solid #ddd" borderTop="1px solid #ddd" boxShadow="5px 5px 2px #ddd" h={220} w={250} p={20}>
+                <Flex className="connect_card" flexDirection="column" borderLeft="1px solid #ddd" borderTop="1px solid #ddd" boxShadow="5px 5px 2px #ddd" h={220} w={250} p={20}>
                     <Flex fontSize={20}>
                         <Text fontWeight="bold" color="#070941">Sale</Text>
                         <Spacer />
@@ -54,7 +54,7 @@ const Connections = () => {
                         <Spacer />
                     <Button w={130} p={6} color="#fff" bg="#070941">Start</Button>
                 </Flex>
-                <Flex flexDirection="column" borderLeft="1px solid #ddd" borderTop="1px solid #ddd" boxShadow="5px 5px 2px #ddd" h={220} w={250} p={20}>
+                <Flex className="connect_card" flexDirection="column" borderLeft="1px solid #ddd" borderTop="1px solid #ddd" boxShadow="5px 5px 2px #ddd" h={220} w={250} p={20}>
                     <Flex fontSize={20}>
                         <Text fontWeight="bold" color="#070941">Sale</Text>
                         <Spacer />
@@ -65,7 +65,7 @@ const Connections = () => {
                         <Spacer />
                     <Button w={130} p={6} color="#fff" bg="#070941">Start</Button>
                 </Flex>
-                <Flex flexDirection="column" borderLeft="1px solid #ddd" borderTop="1px solid #ddd" boxShadow="5px 5px 2px #ddd" h={220} w={250} p={20}>
+                <Flex className="connect_card" flexDirection="column" borderLeft="1px solid #ddd" borderTop="1px solid #ddd" boxShadow="5px 5px 2px #ddd" h={220} w={250} p={20}>
                     <Flex fontSize={20}>
                         <Text fontWeight="bold" color="#070941">Sale</Text>
                         <Spacer />
@@ -77,14 +77,14 @@ const Connections = () => {
                     <Button w={130} p={6} color="#fff" bg="#070941">Start</Button>
                 </Flex>
         
-                </Grid>
+                </div>
             ) : (
                 <Flex h={500} flexDirection="column" justifyContent="center" alignItems="center">
                 <Text textAlign="center" color="#070941" fontSize={18}> Connections keep track of <br/>
-                poeple or business you have interacted <br/>
+                people or business you have interacted <br/>
                 with in the past or currently interacting with.</Text>
                 <span style={{color:"#070941",fontSize:"18px", fontWeight:"bold", margin:"10px 0"}}>You don't have any connections yet.</span> 
-                <Button bg="#68F195" w={250} color="#070941" p={10} fontSize={20} fontWeight="bold">How do I connect?</Button>
+                <Button onClick={() => setMember(!member)} bg="#68F195" w={250} color="#070941" p={10} fontSize={20} fontWeight="bold">How do I connect?</Button>
             </Flex>
             )}
         </div>
