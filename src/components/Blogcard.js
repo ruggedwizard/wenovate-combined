@@ -1,11 +1,12 @@
 import React from 'react'
+import small from '../assets/small.png'
 import { Card, Button } from 'react-bootstrap'
 const Blogcard = ()=>{
     return (
         <>
-        <Card style={{width:'25rem'}}>
+        <Card className="mb-5">
         <Card.Body>
-        <Card.Img variant='top' src='./assets/small.png'/>
+        <Card.Img variant='top' src={small} style={{height:"300px"}}/>
         <Card.Title>
         category
         </Card.Title>
