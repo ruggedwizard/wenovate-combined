@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Navigation from './components/Navigation';
 import Footernew from './components/Footernew';
 import Bodynew from './components/Bodynew'
-// import Admin from './components/Admin';
+import Admin from './components/Admin';
 import Body from './components/Body'
 import Connect from './components/Connect'
 import Blog from './components/Blog'
@@ -26,6 +26,7 @@ const App = () =>  {
             <Route path="/body" component = {Body} />
             <Route path="/connect" component = {Connect} />
             <Route path="/blog" component = {Blog} />
+            <Route path="/admin" component = {Admin} />
 
             <Route path="/community" component = {Community} />
             <Route path="/about" component = {About} />

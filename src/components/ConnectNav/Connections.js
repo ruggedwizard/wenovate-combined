@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import { Flex, Text, Button, Spacer, Grid } from '@chakra-ui/react'
 
+
 const Connections = () => {
     const [member, setMember] = useState(true)
     return (
-        <div>
+        <div className='col-md-2'>
             {member ? (
                 <Grid templateColumns="repeat(3, 1fr)" gap={50}>
             
