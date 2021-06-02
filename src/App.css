@@ -98,3 +98,12 @@
 		width: 300px;
 	}
 }
+.modal-box{
+	background-color: gray;
+	height:50px;
+	padding:1em;
+	text-align: center;
+	width:200px;
+	margin: auto;
+	color: green;
+}

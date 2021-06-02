@@ -1,11 +1,8 @@
 import {useState} from 'react'
 import { Button, Container } from "react-bootstrap"
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-<<<<<<< HEAD
-=======
 import Story from "./Story"
 import LearnMore from "./LearnMore"
->>>>>>> ea03b29a2fbbf9b3ee309713846982c5d76945d9
 import ConnectNav from './ConnectNav/ConnectNav'
 import Connections from './ConnectNav/Connections'
 import People from './ConnectNav/People'
@@ -24,13 +21,13 @@ const Connect = ()=>{
                     <h1>Introducing <span className='green-text'>connect,</span> an easy way to reach <span className='green-text'>people</span> accross farming communities.</h1>
                 </div>
 
-//                 <Button variant='primary' style={{marginLeft:"15px"}}>Learn more</Button> 
-//                 <br/>
-//                 <br/>
-// =======
-//                 <Button variant='primary' style={{marginLeft:"15px"}} onClick={() => setDisplay(!display)}>{display ? "Show less" : "Learn more"}</Button> 
-//                { display && <LearnMore />}
-//                 <Story/>
+                 <Button variant='primary' style={{marginLeft:"15px"}}>Learn more</Button> 
+                 <br/>
+                 <br/>
+ 
+                 <Button variant='primary' style={{marginLeft:"15px"}} onClick={() => setDisplay(!display)}>{display ? "Show less" : "Learn more"}</Button> 
+                { display && <LearnMore />}
+                <Story/>
                 <ConnectNav />
             
                     <Route exact path='/connect/connections' component={Connections} />
