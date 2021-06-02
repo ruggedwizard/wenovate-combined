@@ -8,10 +8,7 @@ const Blog = ()=>{
             <h3 className="mb-5">Popular</h3>
             <div className='container blog-card-group blog' >
                 <Blogcard/>
-                <div className="blogGrid">
-                    <Blogcard className="blogGridF" />
-                    <Blogcard className="blogGridF" />
-                </div>
+                <Blogcard/>
                 <Blogcard/>
             </div>
         </Container>
