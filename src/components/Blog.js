@@ -10,6 +10,9 @@ const Blog = ()=>{
                 <Blogcard/>
                 <Blogcard/>
                 <Blogcard/>
+                <Blogcard/>
+                <Blogcard/>
+                <Blogcard/>
             </div>
         </Container>
         </>
