@@ -68,6 +68,17 @@
 	width: 20em;
 }
 
+.media {
+	width: 45em;
+	margin-bottom: 5em;
+}
+
+.media-object {
+	width: 15em;
+	border-radius: 50%;
+	height: 15em;
+}
+
 @media screen and (max-width: 800px) {
 	.connect_cards {
 		display: grid;
@@ -118,5 +129,22 @@
 	}
 	.blogCard {
 		width: 16.5em;
+	}
+	.media {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		width: 18em;
+		margin-bottom: 2.5em;
+	}
+	.media-heading {
+		font-size: 20px;
+		text-align: center;
+	}
+	.media-object {
+		height: 8em;
+		width: 8em;
 	}
 }
