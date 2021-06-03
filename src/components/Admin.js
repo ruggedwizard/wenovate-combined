@@ -3,6 +3,7 @@ import Createblog from './Admincomponents/Createblog'
 import Createfeedback from './Admincomponents/Createfeedback'
 import Listblog from './Admincomponents/Listblog'
 import Modal from './Admincomponents/Modal'
+import Viewfeedback from './Admincomponents/Viewfeedbacks'
 
 const Admin = () => {
     const [isModal, setIsModal] = useState(false)
@@ -34,8 +35,10 @@ const Admin = () => {
                     <h6 style={{textAlign:'center'}}>Add Testimony</h6>
                     <Createfeedback/>
                 </div>
-                <div className="jumbotron col-sm-7" >
-                    <h6>Create A New Blog Post</h6>
+                <div style={{marginRight:'1em'}} className="jumbotron col-sm-7">
+                    <h6>Edit Testimonies</h6>
+                    <Viewfeedback/>
+                    <Viewfeedback/>
                 </div>
             </div>
         </div>
