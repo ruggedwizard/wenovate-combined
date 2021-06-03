@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import { Flex, Text, Button, Spacer } from '@chakra-ui/react'
 
+
 const Connections = () => {
     const [member, setMember] = useState(false)
     return (
-        <div>
+        <div className='col-md-2'>
             {member ? (
                 <div className="connect_cards">
             
