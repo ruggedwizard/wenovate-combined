@@ -21,7 +21,7 @@ const Connect = ()=>{
                     <h1>Introducing <span className='green-text'>connect,</span> an easy way to reach <span className='green-text'>people</span> accross farming communities.</h1>
                 </div>
 
-                 <Button variant='primary' style={{marginLeft:"15px"}}>Learn more</Button> 
+                 {/* <Button variant='primary' style={{marginLeft:"15px"}}>Learn more</Button>  */}
                  <br/>
                  <br/>
  

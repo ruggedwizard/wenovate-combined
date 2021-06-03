@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Createblog from './Admincomponents/Createblog'
+import Createfeedback from './Admincomponents/Createfeedback'
 import Listblog from './Admincomponents/Listblog'
 import Modal from './Admincomponents/Modal'
 
@@ -30,7 +31,8 @@ const Admin = () => {
             </div>
             <div style={{marginLeft:'1em'}} className="row">
                 <div className="jumbotron col-sm-4" >
-                    <h6>Create A New Blog Post</h6>
+                    <h6 style={{textAlign:'center'}}>Add Testimony</h6>
+                    <Createfeedback/>
                 </div>
                 <div className="jumbotron col-sm-7" >
                     <h6>Create A New Blog Post</h6>
