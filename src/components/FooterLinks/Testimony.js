@@ -7,8 +7,8 @@ const Testimony = () => {
     return (
         <Container>
             <h1 className="mb-5">Testimony</h1>
-            <div className="d-flex flex-column justify-content-center align-items-center">
-                <div className="media">
+            <div style={{backgroundColor:"#eee", borderRadius:"10px"}} className="d-flex flex-column justify-content-center align-items-center">
+                <div className="media mt-5">
                     <div className="align-self-center">
                         <img className="media-object d-flex mb-3 mr-5 justify-content-center align-items-center" src={farmer} alt="imggg" />
                     </div>
