@@ -38,7 +38,6 @@ const Admin = () => {
                 <div style={{marginRight:'1em'}} className="jumbotron col-sm-7">
                     <h6>Edit Testimonies</h6>
                     <Viewfeedback/>
-                    <Viewfeedback/>
                 </div>
             </div>
         </div>
