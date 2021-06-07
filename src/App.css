@@ -59,6 +59,26 @@
 	grid-gap: "50px";
 }
 
+.blog {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2em;
+}
+.blogCard {
+	width: 20em;
+}
+
+.media {
+	width: 45em;
+	margin-bottom: 5em;
+}
+
+.media-object {
+	width: 15em;
+	border-radius: 50%;
+	height: 15em;
+}
+
 @media screen and (max-width: 800px) {
 	.connect_cards {
 		display: grid;
@@ -73,6 +93,10 @@
 	.word p {
 		margin: auto;
 		width: 400px;
+	}
+	.blog {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 @media screen and (max-width: 560px) {
@@ -97,13 +121,39 @@
 	.word p {
 		width: 300px;
 	}
+	.blog {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.blogCard {
+		width: 16.5em;
+	}
+	.media {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		width: 18em;
+		margin-bottom: 2.5em;
+	}
+	.media-heading {
+		font-size: 20px;
+		text-align: center;
+	}
+	.media-object {
+		height: 8em;
+		width: 8em;
+	}
 }
-.modal-box{
+.modal-box {
 	background-color: gray;
-	height:50px;
-	padding:1em;
+	height: 50px;
+	padding: 1em;
 	text-align: center;
-	width:200px;
+	width: 200px;
 	margin: auto;
 	color: green;
 }

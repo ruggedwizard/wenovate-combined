@@ -5,8 +5,13 @@ const Blog = ()=>{
     return (
         <>
         <Container>
-            <h3>Popular</h3>
-            <div className='container blog-card-group' >
+            <h3 className="mb-5">Popular</h3>
+            <div className='container blog-card-group blog' >
+                <Blogcard/>
+                <Blogcard/>
+                <Blogcard/>
+                <Blogcard/>
+                <Blogcard/>
                 <Blogcard/>
             </div>
         </Container>
