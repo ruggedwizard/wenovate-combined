@@ -14,7 +14,7 @@ import About from './components/FooterLinks/About.js'
 import Faq from './components/FooterLinks/Faq'
 import Mission from './components/FooterLinks/Mission'
 import Testimony from './components/FooterLinks/Testimony.js'
-
+import AdminLogin from './components/AdminLogin'
 const App = () =>  {
   return (
     <>
@@ -27,6 +27,7 @@ const App = () =>  {
             <Route path="/connect" component = {Connect} />
             <Route path="/blog" component = {Blog} />
             <Route path="/admin" component = {Admin} />
+            <Route path="/admin-login" component = {AdminLogin} />
 
             <Route path="/community" component = {Community} />
             <Route path="/about" component = {About} />

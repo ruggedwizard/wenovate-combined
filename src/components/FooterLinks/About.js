@@ -30,15 +30,15 @@ const About = () => {
                             <div className="col-12 col-md-6 col-lg-4">
                                 <ul className="no-list-style">
                                 <li className="mb-2">
-                                    <span className="text-bold-500 primary"><a><i className="icon-present font-small-3"></i> Birthday:</a></span>
+                                    <span className="text-bold-500 primary"><a href="google.com"><i className="icon-present font-small-3"></i> Birthday:</a></span>
                                     <span className="d-block overflow-hidden">June 10th, 1988</span>
                                 </li>
                                 <li className="mb-2">
-                                    <span className="text-bold-500 primary"><a><i className="ft-map-pin font-small-3"></i> Birthplace:</a></span>
+                                    <span className="text-bold-500 primary"><a href="#"><i className="ft-map-pin font-small-3"></i> Birthplace:</a></span>
                                     <span className="d-block overflow-hidden">New Jersey, USA</span>
                                 </li>
                                 <li className="mb-2">
-                                    <span className="text-bold-500 primary"><a><i className="ft-globe font-small-3"></i> Lives in:</a></span>
+                                    <span className="text-bold-500 primary"><a href="#"><i className="ft-globe font-small-3"></i> Lives in:</a></span>
                                     <span className="d-block overflow-hidden">Denver, USA</span>
                                 </li>
                                 </ul>
@@ -46,15 +46,15 @@ const About = () => {
                             <div className="col-12 col-md-6 col-lg-4">
                                 <ul className="no-list-style">
                                 <li className="mb-2">
-                                    <span className="text-bold-500 primary"><a><i className="ft-user font-small-3"></i> Gender:</a></span>
+                                    <span className="text-bold-500 primary"><a href="#"><i className="ft-user font-small-3"></i> Gender:</a></span>
                                     <span className="d-block overflow-hidden">Male</span>
                                 </li>
                                 <li className="mb-2">
-                                    <span className="text-bold-500 primary"><a><i className="ft-mail font-small-3"></i> Email:</a></span>
+                                    <span className="text-bold-500 primary"><a href="#"><i className="ft-mail font-small-3"></i> Email:</a></span>
                                     <a className="d-block overflow-hidden">jose@yourmail.com</a>
                                 </li>
                                 <li className="mb-2">
-                                    <span className="text-bold-500 primary"><a><i className="ft-monitor font-small-3"></i> Website:</a></span>
+                                    <span className="text-bold-500 primary"><a href="#"><i className="ft-monitor font-small-3"></i> Website:</a></span>
                                     <a className="d-block overflow-hidden">pixinvent.com</a>
                                 </li>
                                 </ul>
@@ -62,15 +62,15 @@ const About = () => {
                             <div className="col-12 col-md-6 col-lg-4">
                                 <ul className="no-list-style">
                                 <li className="mb-2">
-                                    <span className="text-bold-500 primary"><a><i className="ft-smartphone font-small-3"></i> Phone Number:</a></span>
+                                    <span className="text-bold-500 primary"><a href="#"><i className="ft-smartphone font-small-3"></i> Phone Number:</a></span>
                                     <span className="d-block overflow-hidden">(012) 345 - 678 - 9910</span>
                                 </li>
                                 <li className="mb-2">
-                                    <span className="text-bold-500 primary"><a><i className="ft-briefcase font-small-3"></i> Occupation:</a></span>
+                                    <span className="text-bold-500 primary"><a href="#"><i className="ft-briefcase font-small-3"></i> Occupation:</a></span>
                                     <span className="d-block overflow-hidden">Ninja Developer</span>
                                 </li>
                                 <li className="mb-2">
-                                    <span className="text-bold-500 primary"><a><i className="ft-book font-small-3"></i> Joined:</a></span>
+                                    <span className="text-bold-500 primary"><a href="#"><i className="ft-book font-small-3"></i> Joined:</a></span>
                                     <span className="d-block overflow-hidden">April 1st, 2012</span>
                                 </li>
                                 </ul>
@@ -104,7 +104,7 @@ const About = () => {
                             <span className="mr-3 mt-2 text-center float-left width-100"> <i className="icon-music-tone-alt danger font-large-2"></i>
                                 <div className="mt-2">Music</div>
                             </span>
-                            <span className="mr-3 mt-2 text-center float-left width-100"> <i className="ft-monitor danger font-large-2"></i>
+                            <span className="mr-3 mt-2 text-center float-left width-100"> < i className="ft-monitor danger font-large-2"></i>
                                 <div className="mt-2">Surfing</div>
                             </span>
                             <span className="mr-3 mt-2 text-center float-left width-100"> <i className="ft-pie-chart danger font-large-2"></i>
