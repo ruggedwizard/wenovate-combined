@@ -4,6 +4,8 @@ import { Container } from 'react-bootstrap'
 
 const Community = () => {
     return (
+        <div>
+            {/* 
         <Container>
             <h1>Community</h1>
             <section id="content-types">
@@ -60,6 +62,8 @@ const Community = () => {
 
                 </section>
         </Container>
+         */}
+        </div>
     )
 }
 

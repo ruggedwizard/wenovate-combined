@@ -4,6 +4,8 @@ import { Container } from 'react-bootstrap'
 
 const About = () => {
     return (
+        <div>
+{/*         
         <Container>
             <h1>About</h1>
             <section id="about">
@@ -124,6 +126,9 @@ const About = () => {
                     </div>
                 </section>
         </Container>
+         */}
+
+        </div>
     )
 }
 

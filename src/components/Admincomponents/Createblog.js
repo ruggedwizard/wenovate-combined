@@ -1,5 +1,6 @@
-import React ,{ useState }from 'react'
+import React ,{ useState}from 'react'
 import { Form, Button} from 'react-bootstrap'
+import firebase from '../../config/config'
 
 
 const Createblog = () => {
@@ -9,8 +10,6 @@ const Createblog = () => {
 
     const setSubmit = (e) =>{
         e.preventDefault()
-        console.log('Submitted')
-        alert('Form Submitted')
     }
 
     return (

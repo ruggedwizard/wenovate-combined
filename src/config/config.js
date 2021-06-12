@@ -11,21 +11,23 @@ import 'firebase/firestore'
     messagingSenderId: "558350466008",
     appId: "1:558350466008:web:75c4fafa73878a1224d0ad"
   };
+  
+  
 
-  if(location.hostname === 'localhost'){
-    firebaseConfig ={
-       authDomain:'http:localhost:9099?ns=wenovate-f9487',
-       databaseURL:'http:localhost:9000?ns=wenovate-f9487',
-       storageBucket:'http:localhost:9199?ns=wenovate-f9487',
-
-    }
-  }
+  // console.log(location.hostname)
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   
-  const Auth = firebase.auth()
-  const ProjectStoreage = firebase.storage()
-  const ProjectFirestore = firebase.firestore()
+  const auth = firebase.auth()
+  const projectStoreage = firebase.storage()
+  const projectFirestore = firebase.firestore()
   const timestamp = firebase.firestore.FieldValue.serverTimestamp
   
-  export {Auth, ProjectStoreage , ProjectFirestore, timestamp}
+  // eslint-disable-next-line no-restricted-globals
+  if(location.hostname === 'localhost'){
+    projectFirestore.useEmulator('localhost',8080)
+    auth.useEmulator('http://localhost:9099',{disableWarnings:true})
+  }
+  
+export default firebase
+export {auth, projectFirestore, projectStoreage}
