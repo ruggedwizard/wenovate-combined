@@ -21,6 +21,7 @@ const Createblog = () => {
             author,
             content,
             title,
+            imageUrl,
             date_added:firebase.firestore.FieldValue.serverTimestamp()
         })
         setTitle('')
@@ -29,24 +30,30 @@ const Createblog = () => {
     }
     const imageUpload = (e) =>{
         const image = e.target.files[0]
-        console.log(image.name)
         const types = ['image/jpeg', 'image/png']
         
         // uplaoad the image to storage
        
-            firebase.storage()
+          firebase.storage()
             .ref(image.name)
             .put(image)
             .on('state_changed',(snap)=>{
                 let percentage = (snap.bytesTransferred/ snap.totalBytes) * 100
                 setProgress(percentage)
+               
+            },(err)=>{
+                console.log(err)
             },async ()=>{
                 const url = await firebase.storage().ref(image.name).getDownloadURL()
+                if(url){
+                    alert('you may proceed')
+                }
                 setImageUrl(url)
             })
        
         
     }
+
     console.log(progress, imageUrl)
    
     return (
