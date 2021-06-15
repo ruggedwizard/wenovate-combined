@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState }from 'react'
 import { Container, Form, Button} from 'react-bootstrap'
 const AdminLogin =()=>{
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
     return(
         <Container className='col-sm-4 jumbotron'>
             <h5 style={{textAlign:'center'}}>OFR Pannel</h5>

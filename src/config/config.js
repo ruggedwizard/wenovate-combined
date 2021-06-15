@@ -27,7 +27,8 @@ import 'firebase/firestore'
   if(location.hostname === 'localhost'){
     projectFirestore.useEmulator('localhost',8080)
     auth.useEmulator('http://localhost:9099',{disableWarnings:true})
+    projectStoreage.useEmulator('localhost',9199)
   }
   
 export default firebase
-export {auth, projectFirestore, projectStoreage}
+export {auth, projectFirestore, projectStoreage, timestamp}

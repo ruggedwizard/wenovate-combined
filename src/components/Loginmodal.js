@@ -14,12 +14,18 @@ const Loginmodal = () => {
     }
     const handelSubmit = (e)=>{
         e.preventDefault()
-        firebase.auth()
-        .signInWithEmailAndPassword(email, password)
-        .then((cred)=>{
-            console.log(cred.user)
-        })
-        setShow(false)
+        if(email.length === 0 || password.length === 6){
+            alert("Email or Password too short")
+
+        }else{
+
+            firebase.auth()
+            .signInWithEmailAndPassword(email, password)
+            .then((cred)=>{
+                console.log(cred.user)
+            })
+            setShow(false)
+        }
 
     }
     return(

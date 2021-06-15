@@ -1,6 +1,6 @@
 import { Button } from 'react-bootstrap'
 import React from 'react'
-
+import firebase from '../../config/config'
 const Listblog = ()=>{
     return(
         <div>
