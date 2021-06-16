@@ -51,7 +51,6 @@ const Createblog = () => {
                 setImageUrl(url)
             })
        
-        
     }
 
     console.log(progress, imageUrl)

@@ -1,10 +1,27 @@
 import React ,{useState}from 'react'
 import {Form, Button} from 'react-bootstrap'
+import firebase from '../../config/config'
 const Createfeedback = () => {
     const [feedbackTitle, setFeedbackTitle] = useState('')
     const [feedbackAuthor, setFeedbackAuthor] = useState('')
     const [feedbackContent, setFeedbackContent] = useState('')
 
+
+    const handleSubmit = (e)=>{
+        e.preventDefault()
+        firebase.firestore()
+        .collection('feedbacks')
+        .add({
+            feedbackTitle,
+            feedbackAuthor,
+            feedbackContent,
+            date_added:firebase.firestore.FieldValue.serverTimestamp()
+        })
+        setFeedbackTitle('')
+        setFeedbackAuthor('')
+        setFeedbackContent('')
+
+    }
     return (
         <Form>
             <Form.Group>
@@ -40,7 +57,7 @@ const Createfeedback = () => {
                 placeholder="Feedback Content......"></Form.Control>
             </Form.Group>
            
-            <Button variant="outline-success"> Add Testimony</Button>
+            <Button variant="outline-success" onClick={handleSubmit}> Add Testimony</Button>
         </Form>
     )
 }
