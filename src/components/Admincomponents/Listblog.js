@@ -4,9 +4,7 @@ import firebase from '../../config/config'
 const Listblog = ()=>{
     const [testimony, setTestimony] = useState([])
     useEffect(()=>{
-        firebase.firestore()
-        .collection()
-        .onSnapshot('testimony')
+        
 
     },[])
 

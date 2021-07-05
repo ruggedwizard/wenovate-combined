@@ -25,19 +25,10 @@ const Admin = () => {
                     <h6 style={{textAlign:'center'}}>Create A New Blog Post</h6>
                     <Createblog/>
                 </div>
-                <div className="jumbotron col-sm-6" style={{marginRight:'1em'}}>
-                    <h6 style={{textAlign:'center'}}>Blog Post List</h6>
-                    <Listblog/>
-                </div>
-            </div>
-            <div style={{marginLeft:'1em'}} className="row">
-                <div className="jumbotron col-sm-4" >
+                {/* Feedback Part */}
+                <div className="jumbotron col-sm-6" >
                     <h6 style={{textAlign:'center'}}>Add Testimony</h6>
                     <Createfeedback/>
-                </div>
-                <div style={{marginRight:'1em'}} className="jumbotron col-sm-7">
-                    <h6>Edit Testimonies</h6>
-                    <Viewfeedback/>
                 </div>
             </div>
         </div>
